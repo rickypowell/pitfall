@@ -21,7 +21,7 @@ fn main() {
     'game: loop {
         let mut roll = String::new();
 
-        println!("Roll the dice…");
+        println!("🎲 Roll the dice…");
 
         io::stdin()
             .read_line(&mut roll)
